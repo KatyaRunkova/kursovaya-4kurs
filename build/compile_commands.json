@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/home/kate/projects/telemetry/build/src",
+  "command": "/usr/bin/arm-none-eabi-g++ -DSTM32F4 -DSTM32F4CCM -DSTM32F407VG -I/home/kate/projects/telemetry/src -I/home/kate/projects/telemetry/build/_deps/llibopencm3-src/include -std=c++17 -ggdb3 -Os -fdata-sections -ffunction-sections -fno-common -fno-exceptions -Wall -Wextra -Wshadow -Wdouble-promotion -Wundef -Wconversion -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=hard -o CMakeFiles/telemetry.dir/main.cpp.obj -c /home/kate/projects/telemetry/src/main.cpp",
+  "file": "/home/kate/projects/telemetry/src/main.cpp",
+  "output": "src/CMakeFiles/telemetry.dir/main.cpp.obj"
+}
+]

@@ -1,7 +1,7 @@
-//Мигаем светодиодом
 #include <libopencm3/stm32/rcc.h> //rcc.h - reset and clock control
 #include <libopencm3/stm32/gpio.h> //inputs outputs
 
+// Мигаем светодиодом
 int main() {
     rcc_periph_clock_enable(RCC_GPIOD);
 
@@ -10,7 +10,7 @@ int main() {
     while (true) {
 
         gpio_toggle(GPIOD,GPIO15);
-        for(volatile uint32_t i =0; i < 2'000'000; i +=2);
+        for(volatile uint32_t i =0; i < 100'000; i +=2);
 
     }
 }

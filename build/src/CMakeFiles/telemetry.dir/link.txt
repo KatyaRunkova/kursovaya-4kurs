@@ -1,0 +1,1 @@
+/usr/bin/arm-none-eabi-g++ -nostartfiles -specs=nano.specs -specs=nosys.specs -lc -lm -lnosys -Wl,--gc-sections -T/home/kate/projects/telemetry/build/_deps/llibopencm3-src/lib/generated.stm32f407vg.ld -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=hard CMakeFiles/telemetry.dir/main.cpp.obj -o telemetry  ../_deps/llibopencm3-src/lib/libopencm3_stm32f4.a 
